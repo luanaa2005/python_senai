@@ -5,39 +5,36 @@
 # outra operação, o seu aplicativo apenas deve encerrar quando a opção não for
 # inserida.
 
-nomes = ['Luciano', 'Lucas', 'Matheus']
+from os import system
+import operacoes as op
+# from operacoes import menu, listar_nomes
+# import operacoes
+
 operacao = 'sim'
 
 while operacao == 'sim':
-    print('1- Cadastrar nome')
-    print('2- Atualizar o nome')
-    print('3- Excluir')
-    print('4- Listar todos os cadastrados')
+    op.menu()
     opcao = int(input('Informe a ação desejada: '))
 
     match opcao:
         case 1:
-         nome = input('Digite o nome: ')
-         nomes.append(nome)
+            nome = input('Digite o nome: ')
+            op.cadastrar_nome(nome)
         case 2:
-         nome = input('Qual nome será atualizado? ')
-         novo_nome = input('Digite o novo nome: ')
-
-         nomes[nomes.index(nome)] = novo_nome      # index retorna em qual indice o nome está na lista
+            nome = input('Qual nome será atualizado? ')
+            novo_nome = input('Digite o novo nome: ')
+            op.atualiza_nome(nome, novo_nome)
         case 3:
-         nome = input('Qual nome será removido? ')
-         nomes.remove(nome)
+            nome = input('Qual nome será removido? ')
+            op.excluir_nome(nome)
         case 4:
-         for indice, nome in enumerate (nomes):
-             print(f'{indice} - {nome}')
+            op.listar_nomes()
         case _:
          print('opcao invalida')
 
     operacao = input('Deseja realizar outra operacao? ').lower()
+    system('clear')
 
     if operacao == 'nao':
         break
-
-       
-
-
+    

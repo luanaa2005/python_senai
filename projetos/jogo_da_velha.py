@@ -3,7 +3,7 @@
 import velha_funcoes as jv
 
 jogador = 'X'
-vencedor =  False
+vencedor = False
 
 while vencedor == False:
     jv.desenhar_tabuleiro()
@@ -19,4 +19,3 @@ while vencedor == False:
 
 jogador = jv.troca_jogador(jogador)
 print(f'O jogador "{jogador}" venceu!')
-

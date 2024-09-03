@@ -8,7 +8,3 @@ elif cor == 'verde':
     print('verde')
 else:
     print('azul')
-
-
-
-

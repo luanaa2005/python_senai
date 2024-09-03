@@ -6,5 +6,3 @@ dias = ['domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta','sabado']
 numero = int(input('digite o numero da semana: \n'))
 
 print('dia da semana:', dias[numero-1])
-
-

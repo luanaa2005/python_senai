@@ -3,10 +3,8 @@
 idade = int(input('Digite sua idade: \n'))
 
 if idade > 18:
-     print('idade maior de 18')
+    print('idade maior de 18')
 elif idade == 18:
-     print('idade igual a 18')
+    print('idade igual a 18')
 else:
     print('idade menor de 18')
-
-    

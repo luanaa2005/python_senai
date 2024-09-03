@@ -6,3 +6,4 @@ if cidade == 'brasilia':
     print('a cidade eh capital do brasil')
 else:
     print('a cidade nao eh capital do brasil')
+ 

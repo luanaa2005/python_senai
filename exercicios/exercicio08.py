@@ -1,13 +1,14 @@
 # Desenvolva um algoritmo que pergunte ao usuário o estado civil (solteiro, casado, divorciado, viúvo) e exiba uma mensagem correspondente
 
-estado = str(input('Informe o seu estado civil (solteiro, casado, divorciado, viúvo): \n'))
+estado = str(
+    input('Informe o seu estado civil (solteiro, casado, divorciado, viúvo): \n'))
 
 match estado:
-    case 'solteiro' :
+    case 'solteiro':
         print('estado civil: ', estado)
-    case 'casado': 
+    case 'casado':
         print('estado civil: ', estado)
-    case 'divorciado' :
+    case 'divorciado':
         print('estado civil: ', estado)
-    case 'viuvo': 
+    case 'viuvo':
         print('estado civil: ', estado)

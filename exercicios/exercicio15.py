@@ -3,6 +3,6 @@
 idade = int(input('Digite sua idade: \n'))
 
 if idade >= 13 and idade <= 17:
-     print('adolescente')
+    print('adolescente')
 else:
     print('nao eh adolescente')

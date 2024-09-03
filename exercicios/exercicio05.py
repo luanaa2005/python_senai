@@ -7,3 +7,4 @@ if numero1 % 2 == 0 and numero2 % 2 == 0:
     print('ambos sao pares')
 else:
     print('algum numero ou ambos numeros nao sao pares')
+    

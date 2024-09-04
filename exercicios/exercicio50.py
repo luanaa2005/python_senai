@@ -3,5 +3,4 @@
 numero = int(input('Informe um numero: \n'))
 
 for i in range(numero):
-    print(numero - i)
-
+    print(numero - i, end=' ')

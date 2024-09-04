@@ -6,5 +6,3 @@ numero2 = int(input('digite o segundo numero: \n'))
 while numero1 < numero2:
     numero1 = int(input('digite o primeiro numero: \n'))
     numero2 = int(input('digite o segundo numero: \n'))
-
-

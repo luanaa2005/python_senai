@@ -4,8 +4,3 @@ senha = int(input('Digite a senha: \n'))
 
 while senha != 1234:
     senha = int(input('Digite a senha: \n'))
-
-
- 
-
-    

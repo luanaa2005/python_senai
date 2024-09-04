@@ -5,5 +5,5 @@ soma = 0
 for pergunta in range(10):
     numero = int(input('Digite um numero: '))
     soma += numero
-    
-print(f'media dos numeros inseridos: {soma / 10} '  ) 
+
+print(f'media dos numeros inseridos: {soma / 10} ')

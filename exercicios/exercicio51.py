@@ -7,7 +7,3 @@ while numero != 0:
     soma = numero + soma
     numero = int(input('informe o numero \n'))
 print(soma)
-
-   
-    
-    

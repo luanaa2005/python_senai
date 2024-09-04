@@ -7,16 +7,13 @@ for i in range(5):
     numero = int(input('Digite um numero: '))
     numero_list.append(numero)
     if numero > maior:
-      maior = numero
+        maior = numero
 
 menor = maior
 for numero in numero_list:
-  if numero < menor:
-    menor = numero
-     
+    if numero < menor:
+        menor = numero
+
 print('\nsua lista:', numero_list)
 print('maior numero da lista:', maior)
 print('menor numero da lista:', menor, '\n')
-
-
-

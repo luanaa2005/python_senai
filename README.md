@@ -1,6 +1,6 @@
 # Curso de python
 
-curso de capacitação python ofertado pelo programa inovatech em parceria com o SENAI.
+
 
 |aula| descricao|link|
 |-|-|-|
